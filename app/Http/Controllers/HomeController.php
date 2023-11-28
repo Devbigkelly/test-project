@@ -20,8 +20,6 @@ class HomeController extends Controller
     public function dashboard(){
         return view('home.dashboard');
     }
-    
-   
 
     public function login(Request $request){
         $request->validate([
